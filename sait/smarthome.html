@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <title>Магазин электроники</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.html">Каталог</a>
+                </li>
+                <li>
+                    <a href="./onas.html">О нас</a>
+                </li>
+                <li>
+                    <a href="./contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-page">
+            <div class="tovar-img-page">
+                <img src="./img/smarthome.jpg" alt="" width="600px">
+            </div>
+            <div class="tovar-info-page">
+                <h1>Центр умного дома Яндекс Хаб YNDX-00510</h1>
+                <br>
+                <div class="bye">
+                    <div class="price">
+                    3 659 руб.
+                    </div>
+                    <button id="buyBtn">Купить</button>
+                </div>
+                <p><b>Описание</b></p>
+                <p>Центр умного дома Яндекс Хаб YNDX-00510 обеспечивает быстрое подключение устройств, что позволяет значительно расширить возможности умного дома и автоматизировать некоторые процессы. Модель способна соединить датчики со станцией Яндекс. Благодаря этому включать чайник, кофеварку, свет в комнате, пылесос или кондиционер можно голосовыми командами или с помощью мобильного приложения на смартфоне. Соединение осуществляется посредством модуля Wi-Fi.</p>
+                <br>
+                <p>Центр умного дома Яндекс Хаб YNDX-00510 при необходимости можно использовать в качестве смарт-пульта для простого телевизора или увлажнителя воздуха, что создает дополнительное удобство в процессе эксплуатации. Благодаря продуманной конструкции модель надежно фиксируется на любой горизонтальной или вертикальной поверхности. В комплекте предусмотрены блок управления и зарядное устройство.</p>                
+            </div>
+        </section>
+    <script>
+        const btn = document.getElementById('buyBtn')
+        btn.addEventListener('click', (e)=>{
+            alert('Поздравляем с покупкой!')
+        })
+    </script>
+    </main>
+</body>
+
+    <footer>
+        <p align="center">Подвал сайта</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.html">Каталог</a>
+                </li>
+                <li>
+                    <a href="./onas.html">О нас</a>
+                </li>
+                <li>
+                    <a href="./contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</html>

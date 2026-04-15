@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <title>Магазин электроники</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.html">Каталог</a>
+                </li>
+                <li>
+                    <a href="./onas.html">О нас</a>
+                </li>
+                <li>
+                    <a href="./contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-page">
+            <div class="tovar-img-page">
+                <img src="./img/shlemvr.jpg" alt="" width="600px">
+            </div>
+            <div class="tovar-info-page">
+                <h1>Шлем виртуальной реальности Sony PlayStation VR2</h1>
+                <br>
+                <div class="bye">
+                    <div class="price">
+                        47 999 руб.
+                    </div>
+                    <button id="buyBtn">Купить</button>
+                </div>
+                <p><b>Описание</b></p>
+                <p>Шлем виртуальной реальности PlayStation VR2 создает эффект полного погружения в динамичное сражение. Модель позволяет насладиться визуальными эффектами в форматах HDR и 4K. Устройство оборудовано OLED-дисплеями. Изображение характеризуется высоким уровнем детализации и реалистичной цветопередачей. За счет оптимальной частоты обновления и широкого угла обзора снижена вероятность возникновения искажений и размытия даже при активных движениях геймера.</p>
+                <br>
+                <p>Технология отслеживания глаз позволяет отобразить на лице персонажа мимику игрока. Это придает реалистичность и вносит элемент интерактивности во взаимодействие с другими участниками. Звуковые эффекты адаптируются в зависимости от положения персонажа игры в пространстве. Благодаря этому можно расслышать мельчайшие шорохи, что позволяет быстрее реагировать на приближение противника. Шлем виртуальной реальности PlayStation VR2 имеет эргономичную форму и регулируемое оголовье. Благодаря этому обеспечено надежное положение устройства без риска соскальзывания. Модель дополнена разъемом для подключения наушников.</p>
+                
+            </div>
+        </section>
+    <script>
+        const btn = document.getElementById('buyBtn')
+        btn.addEventListener('click', (e)=>{
+            alert('Поздравляем с покупкой!')
+        })
+    </script>
+</main>
+</body>
+
+    <footer>
+        <p align="center">Подвал сайта</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.html">Каталог</a>
+                </li>
+                <li>
+                    <a href="./onas.html">О нас</a>
+                </li>
+                <li>
+                    <a href="./contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</html>

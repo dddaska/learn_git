@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <title>Магазин электроники</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.html">Каталог</a>
+                </li>
+                <li>
+                    <a href="./onas.html">О нас</a>
+                </li>
+                <li>
+                    <a href="./contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-page">
+            <div class="tovar-img-page">
+                <img src="./img/smartwatch.jpg" alt="" width="600px" height="600px">
+            </div>
+            <div class="tovar-info-page">
+                <h1>Смарт-часы Huawei Watch GT 5 41mm White</h1>
+                <br>
+                <div class="bye">
+                    <div class="price">
+                    3 659 руб.
+                    </div>
+                    <button id="buyBtn">Купить</button>
+                </div>
+                <p><b>Описание</b></p>
+                <p>Смарт-часы <b>Huawei Watch GT 5 41mm White</b> оборудованы динамиком и микрофоном. При синхронизации со смартфоном можно управлять музыкой, отвечать на звонки и сообщения.</p>
+                <br>
+                <p><b>Удобная навигация</b></p>
+                <p>Трекеры ГЛОНАСС и GPS помогают ориентироваться на незнакомой местности. Устройство может составлять маршрут движения и отслеживать его в режиме реального времени.</p>
+                <br>
+                <p><b>Спортивные программы</b></p>
+                <p>Модель поддерживает программы для занятий плаваньем, баскетболом, теннисом. Часы анализируют технику бега, могут подключаться к измерителям скорости в велосипеде.</p>
+                <br>
+                <p><b>Приложение «Будь в форме»</b></p>
+                <p>Помогает вести дневник питания, подсчитывает дефицит калорий.</p>
+                <br>
+                <p><b>Приложение «Эмоции»</b></p>
+                <p>Позволяет следить за уровнем стресса, психологическим состоянием и настроением. Устройство поможет снять эмоциональное напряжение с помощью рекомендаций по тренировкам и дыхательных упражнений.</p>
+                <br>
+                <p><b>Время автономной работы</b></p>
+                <p>Емкость аккумулятора составляет 323 мА*ч. Этого достаточно для 168 ч непрерывной работы часов. Модель поддерживает функцию беспроводной зарядки.</p>
+                <br>
+                <p>Смарт-часы Huawei Watch GT 5 41mm White осуществляют круглосуточный мониторинг здоровья. Устройство отслеживает пульс, помогает контролировать менструальный цикл, качество сна.</p>
+                
+            </div>
+        </section>
+    <script>
+        const btn = document.getElementById('buyBtn')
+        btn.addEventListener('click', (e)=>{
+            alert('Поздравляем с покупкой!')
+        })
+    </script>
+    </main>
+</body>
+
+    <footer>
+        <p align="center">Подвал сайта</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.html">Каталог</a>
+                </li>
+                <li>
+                    <a href="./onas.html">О нас</a>
+                </li>
+                <li>
+                    <a href="./contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</html>
