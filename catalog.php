@@ -1,0 +1,140 @@
+<?php
+include "header.php";
+?>
+    <main>
+        <section class="our-tovar">
+            <h3>Наши товары</h3>
+
+            <div class="tovars">
+                <div class="tovars1">
+                    <div class="tovars-img">
+                        <img src="./img/watch.jpeg" alt="" width="200px" height="200px">
+                    </div>
+                    <div class="tovars-info">
+                        <p>Умные смарт часы Smart Watch DT No.1 с беспроводной зарядкой, 45 мм</p>
+                        <a href="./watch.html">Подробнее</a>
+                    </div>
+                </div>
+                <div class="tovars1">
+                    <div class="tovars-img">
+                        <img src="./img/alisa.jpg" alt="" width="200px" height="200px">
+                    </div>
+                    <div class="tovars-info">
+                        <p>Портативный аккумулятор Яндекс для Станции Мини 3 Про с Алисой, черный (YNDX-00650)</p>
+                        <a href="./alisa.html">Подробнее</a>
+                    </div>
+                </div>
+                <div class="tovars1">
+                    <div class="tovars-img">
+                        <img src="./img/elkniga.jpg" alt="" width="200px" height="200px">
+                    </div>
+                    <div class="tovars-info">
+                        <p>Электронная книга Onyx boox Дарвин 11 Black</p>
+                        <a href="./elkniga.html">Подробнее</a>
+                    </div>
+                </div>
+                <div class="tovars1">
+                    <div class="tovars-img">
+                        <img src="./img/kolonka.jpg" alt="" width="200px" height="200px">
+                    </div>
+                    <div class="tovars-info">
+                        <p>Умная колонка Sber SberBoom с GigaChat 2.0, 40 Вт, серый</p>
+                        <a href="./kolonka.html">Подробнее</a>
+                    </div>
+                </div>
+                <div class="tovars1">
+                    <div class="tovars-img">
+                        <img src="./img/kriptokoshelek.jpg" alt="" width="200px" height="200px">
+                    </div>
+                    <div class="tovars-info">
+                        <p>Аппаратный криптокошелек Ellipal X Card</p>
+                        <a href="./kriptokoshelek.html">Подробнее</a>
+                    </div>
+                </div>
+                <div class="tovars1">
+                    <div class="tovars-img">
+                        <img src="./img/pleer.jpg" alt="" width="200px" height="200px">
+                    </div>
+                    <div class="tovars-info">
+                        <p>MP3-плеер Digma B5B</p>
+                        <a href="./pleer.html">Подробнее</a>
+                    </div>
+                </div>
+                <div class="tovars1">
+                    <div class="tovars-img">
+                        <img src="./img/pulesos.jpg" alt="" width="200px" height="200px">
+                    </div>
+                    <div class="tovars-info">
+                        <p>Робот-пылесос Dreame D10s белый</p>
+                        <a href="">Подробнее</a>
+                    </div>
+                </div>
+                <div class="tovars1">
+                    <div class="tovars-img">
+                        <img src="./img/shlemvr.jpg" alt="" width="200px" height="200px">
+                    </div>
+                    <div class="tovars-info">
+                        <p>Шлем виртуальной реальности Sony PlayStation VR2</p>
+                        <a href="">Подробнее</a>
+                    </div>
+                </div>
+                <div class="tovars1">
+                    <div class="tovars-img">
+                        <img src="./img/smartbar.jpg" alt="" width="200px" height="200px">
+                    </div>
+                    <div class="tovars-info">
+                        <p>Фитнес-браслет Xiaomi Smart Band 8 Pro M2333B1 Light Grey BHR8007GL (X53478)</p>
+                        <a href="">Подробнее</a>
+                    </div>
+                </div>
+                <div class="tovars1">
+                    <div class="tovars-img">
+                        <img src="./img/smarthome.jpg" alt="" width="200p" height="200p">
+                    </div>
+                    <div class="tovars-info">
+                        <p>Центр умного дома Яндекс Хаб YNDX-00510</p>
+                        <a href="">Подробнее</a>
+                    </div>
+                </div>
+                <div class="tovars1">
+                    <div class="tovars-img">
+                        <img src="./img/smartring.jpg" alt="" width="200p" height="200p">
+                    </div>
+                    <div class="tovars-info">
+                        <p>Смарт-кольцо Sber размер 11", матовый черный (SBDV-00190A11)</p>
+                        <a href="">Подробнее</a>
+                    </div>
+                </div>
+                <div class="tovars1">
+                    <div class="tovars-img">
+                        <img src="./img/smartwatch.jpg" alt="" width="200p" height="200p">
+                    </div>
+                    <div class="tovars-info">
+                        <p>Смарт-часы Huawei Watch GT 5 41mm White</p>
+                        <a href="">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+    </main>
+    <footer>
+        <p align="center">Подвал сайта</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.php">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.html">Каталог</a>
+                </li>
+                <li>
+                    <a href="./onas.html">О нас</a>
+                </li>
+                <li>
+                    <a href="./contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

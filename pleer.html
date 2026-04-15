@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Описание продукта</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.php">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.html">Каталог</a>
+                </li>
+                <li>
+                    <a href="./onas.html">О нас</a>
+                </li>
+                <li>
+                    <a href="./contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-page">
+            <div class="tovar-img-page">
+                <img src="./img/pleer.jpg" alt="" width="600px">
+            </div>
+            <div class="tovar-info-page">
+                <h1>MP3-плеер Digma B5B</h1>
+                <br>
+                <div class="bye">
+                    <div class="price">
+                    2 999 руб.
+                    </div>
+                    <button id="buyBtn">Купить</button>
+                </div>
+                <p><b>Описание</b></p>
+                <p>MP3-плеер Digma B5B оснащен FM-тюнером с возможностью записи эфира и слотом для microSD объемом до 128 ГБ. Встроенная память рассчитана на 8 ГБ. Устройство поддерживает большинство популярных аудио-, видео-, фото- и текстовых форматов. Информация о выбранном файле отображается на цветном LCD-дисплее диагональю 1,77" с разрешением 128x160 Пикс.</p>
+                <br>
+                <p>Модель с частотным диапазоном от 20 Гц до 20000 Гц обеспечивает чистое и глубокое звучание. Восьмиполосный эквалайзер позволяет производить точные настройки. Функции диктофона, секундомера, таймера для автоматического выключения, наличие часов, календаря и микрофона делают эксплуатацию удобной.</p>
+                <br>
+                <p>MP3-плеер Digma B5B питается от литий-полимерного аккумулятора емкостью 300 мА*ч, чего достаточно для 40 часов автономной работы. Для зарядки используется кабель USB 2.0, который входит в комплектацию с наушниками. В изделие интегрирован разъем 3,5 мм. Корпус изготовлен из прочного пластика. Габариты равны 0,98х4,2х9,28 см, вес - 32 г.</p>  
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p align="center">Подвал сайта</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.php">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.html">Каталог</a>
+                </li>
+                <li>
+                    <a href="./onas.html">О нас</a>
+                </li>
+                <li>
+                    <a href="./contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script>
+        const btn = document.getElementById('buyBtn')
+        btn.addEventListener('click', (e)=>{
+            alert('Поздравляем с покупкой!')
+        })
+    </script>
+</body>
+</html>

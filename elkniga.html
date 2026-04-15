@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Описание продукта</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.php">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.html">Каталог</a>
+                </li>
+                <li>
+                    <a href="./onas.html">О нас</a>
+                </li>
+                <li>
+                    <a href="./contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-page">
+            <div class="tovar-img-page">
+                <img src="./img/elkniga.jpg" alt="" width="600px">
+            </div>
+            <div class="tovar-info-page">
+                <h1>Электронная книга Onyx boox Дарвин 11 Black</h1>
+                <br>
+                <div class="bye">
+                    <div class="price">
+                    21 990 руб.
+                    </div>
+                    <button id="buyBtn">Купить</button>
+                </div>
+                <p><b>Описание</b></p>
+                <p>Электронная книга ОНИКС БУКС Дарвин 11 в корпусе черного цвета синхронизируется с внешними устройствами с помощью интерфейса Bluetooth 5.0. Подзарядка аккумулятора емкостью 3000 мАч производится через кабель USB Type-C.</p>
+                <br>
+                <p>Конфигурация включает слот для карт micro SD, micro SDHC, micro SDXC и последующего расширения памяти до 32 ГБ.</p>
+                <br>
+                <p>Электронная книга ОНИКС БУКС Дарвин 11 имеет 6-дюймовый сенсорный дисплей с MOON Light 2-подсветкой для снижения нагрузки на глаза при недостаточном внешнем освещении. Для бережного хранения и транспортировки устройства предусмотрен чехол. Подключение наушников осуществляется через разъем 3.5 mm jack.</p>  
+               
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p align="center">Подвал сайта</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.php">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.php">Каталог</a>
+                </li>
+                <li>
+                    <a href="./onas.php">О нас</a>
+                </li>
+                <li>
+                    <a href="./contacts.php">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script>
+        const btn = document.getElementById('buyBtn')
+        btn.addEventListener('click', (e)=>{
+            alert('Поздравляем с покупкой!')
+        })
+    </script>
+</body>
+</html>

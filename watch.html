@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Описание продукта</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.php">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.php">Каталог</a>
+                </li>
+                <li>
+                    <a href="./onas.php">О нас</a>
+                </li>
+                <li>
+                    <a href="./contacts.php">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-page">
+            <div class="tovar-img-page">
+                <img src="./img/watch.jpeg" alt="" width="600px">
+            </div>
+            <div class="tovar-info-page">
+                <h1>Умные смарт часы Smart Watch DT No.1 с беспроводной зарядкой, 45 мм</h1>
+                <br>
+                <div class="bye">
+                    <div class="price">
+                    3 659 руб.
+                    </div>
+                    <button id="buyBtn">Купить</button>
+                </div>
+                <p><b>Описание</b></p>
+                <p>Смарт часы Smart Watch DT No.1 - модель умных смарт часов с возможностью просмотра уведомлений, звонков (показано имя звонящего), контролем физического состояния пользователя, полноценным управлением муз. плеером телефона с часов и полноэкранным сенсорным дисплеем, имеющим минимальные рамки с яркой и насыщенной цветопередачей. Данные часы отличаются плавным и отзывчивым сенсором, быстрым процессором, беспроводной зарядкой.</p>
+                <br>
+                <p>Смарт часы DT No.1 поддерживают подключение с помощью Bluetooth ко всем смартфонам на платформах Android или iOS (iPhone). Встроенный шагомер будет автоматически считывать и синхронизировать данные о пройденных шагах и потраченных калориях.</p>
+                <br>
+                <p>Настроить работу часов можно через приложение Wear Pro. Можно закачать за заставку экрана циферблат, выбрав его из нескольких сотен разнообразных циферблатов в приложении, которые к тому же часто пополняются или поставить своё фото на циферблат.</p>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p align="center">Подвал сайта</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.php">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.php">Каталог</a>
+                </li>
+                <li>
+                    <a href="./onas.php">О нас</a>
+                </li>
+                <li>
+                    <a href="./contacts.php">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script>
+        const btn = document.getElementById('buyBtn')
+        btn.addEventListener('click', (e)=>{
+            alert('Поздравляем с покупкой!')
+        })
+    </script>
+</body>
+</html>

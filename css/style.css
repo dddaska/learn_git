@@ -1,0 +1,248 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color: lightblue;
+    padding: 30px; /*внутренний отступ*/
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: auto;
+}
+nav > ul{
+    display: flex; /*элементы в теге в линию*/
+    gap: 50px; /*отступ в контейнере*/
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+nav > ul >li{
+    list-style-type: none;
+}
+nav > ul >li>a{
+    color: rgba(1, 25, 147, 0.563);/*изменить цвет текста*/
+    text-decoration: none;/*убирает подчеркивания*/
+    transition: all 0,3s ease; /*плавност при изменении*/
+
+}
+nav > ul >li>a:hover{
+    color: rgb(0, 0, 0); /*изменить цвет текста при наведении на него*/
+}
+/*подвал сайта*/
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(34, 34, 85, 0.781);
+}
+footer>p{
+    color: rgba(225, 197, 236, 0.914);
+    margin: 0;
+}
+footer>nav>ul>li>a{
+    color: rgba(228, 170, 255, 0.522);
+    text-decoration: none;/*убирает подчеркивания*/
+    transition: all 0,3s ease; /*плавност при изменении*/
+}
+footer>nav>ul>li>a:hover{
+    color: rgb(216, 216, 216); /*изменить цвет текста при наведении на него*/
+}
+
+/*контент страницы*/
+
+main{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.popular-tovar{
+    width: 100%;
+    height:auto
+}
+
+.popular-tovar>h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tovar-list{
+    width: 100%;
+    height:auto;
+    padding: 0 20px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.tovar-card{
+    width: 15%;
+    height: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 50px;
+    
+}
+.tovar-img{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+}
+.tovar-img>img{
+    border-radius: 50px;
+}
+.tovar-info{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tovar-info>a{
+    color: black;
+    background-color: lightblue;
+    border-radius: 50px;
+    padding: 5px 40px;
+    text-decoration: none;
+    transition: all 0,3s easy;
+    font-size: 20px;
+}
+.tovar-info>a:hover{
+    color: rgb(98, 3, 132);
+    background-color: rgba(228, 170, 255, 0.522);
+    padding: 7px 42px;
+}
+.product-page{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    padding: 50px 0;
+}
+.tovar-img-page{
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.tovar-info-page{
+    width: 45%;
+    height: auto;
+}
+.tovar-info-page>h1{
+    justify-content: left;
+    display: flex;
+    margin-bottom: 50px;
+}
+.tovar-info-page>:nth-child(2){
+    line-height: 1.5;
+}
+
+/*Страница карточки товара*/
+
+.price{
+    width: 90%;
+    height: auto;
+    background-color: azure;
+    padding: 30px 10px;
+    margin: 20px;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid rgb(13, 0, 194);
+    font-size: 25px;
+}
+.bye{
+    display: flex;
+}
+.bye>button{
+    width: 100%;
+    height: auto;
+    padding: 30px 10px;
+    margin: 20px;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid rgb(13, 0, 194);
+    color: rgb(4, 54, 97);
+    transition: all 0.3s easy;
+    font-size: 25px;
+    background-color: lightblue;
+}
+
+/*Страница каталога*/
+
+.our-tovar{
+    width: 100%;
+    height:auto
+}
+
+.our-tovar>h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bye>button:hover{
+    cursor:pointer;
+    background: transparent;
+    color: rgb(96, 4, 114);
+    background-color:rgba(228, 170, 255, 0.522) ;
+    border: 1px solid rgb(165, 128, 224);
+    font-size: 25px;
+}
+.tovars{
+    width: 100%;
+    height:auto;
+    padding: 0 20px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.tovars1{
+    width: 15%;
+    height: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 50px;
+    
+}
+.tovars-img{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+}
+.tovars-img>img{
+    border-radius: 50px;
+}
+.tovars-info{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tovars-info>a{
+    color: black;
+    background-color: lightblue;
+    border-radius: 50px;
+    padding: 5px 40px;
+    text-decoration: none;
+    transition: all 0,3s easy;
+    font-size: 20px;
+}
+.tovars-info>a:hover{
+    color: rgb(98, 3, 132);
+    background-color: rgba(228, 170, 255, 0.522);
+    padding: 7px 42px;
+}
+.tovars-info>p{ /*текст в одну линию с многоточием*/
+    margin: 0;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    overflow: hidden;
+}

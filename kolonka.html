@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Описание продукта</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.php">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.php">Каталог</a>
+                </li>
+                <li>
+                    <a href="./onas.php">О нас</a>
+                </li>
+                <li>
+                    <a href="./contacts.php">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-page">
+            <div class="tovar-img-page">
+                <img src="./img/kolonka.jpg" alt="" width="600px">
+            </div>
+            <div class="tovar-info-page">
+                <h1>Умная колонка Sber SberBoom с GigaChat 2.0, 40 Вт, серый</h1>
+                <br>
+                <div class="bye">
+                    <div class="price">
+                    8 999 руб.
+                    </div>
+                    <button id="buyBtn">Купить</button>
+                </div>
+                <p><b>Описание</b></p>
+                <p>Умная колонка Sber SberBoom выполнена в пластиковом корпусе цвета «лунный серый» с тканевой вставкой. Модель весом 1300 г отличается компактной конструкцией с элегантным дизайном. Габариты - 20х14,5х14,5 см.</p>
+                <br>
+                <p>Доступны любые оттенки из RGB-спектра. Последнее обновление делает личного ассистента полноценным собеседником, который не просто отвечает на вопросы и выполняет команды, а запоминает предыдущие диалоги и удерживает контекст. Настраивайте умную колонку Sber SberBoom - выбирайте тип голоса и стиль общения. Громкая связь, баланс глубоких басов и высоких частот с детализированным звучанием. Объединение устройств в стереопару для создания объемного эффекта. Подключение смартфона для воспроизведения контента, доступ к музыкальным сервисам и экосистеме «умного дома».</p>
+                <br>
+                <p>Колонка Sber SberBoom с голосовым помощником «Салют» может управляться за счет кнопок, размещенных в верхней части. Источником питания служит стандартная электросеть. Кабель USB Type-C входит в комплектацию.</p>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p align="center">Подвал сайта</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.php">Главная страница</a>
+                </li>
+                <li>
+                    <a href="./catalog.php">Каталог</a>
+                </li>
+                <li>
+                    <a href="./onas.php">О нас</a>
+                </li>
+                <li>
+                    <a href="./contacts.php">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script>
+        const btn = document.getElementById('buyBtn')
+        btn.addEventListener('click', (e)=>{
+            alert('Поздравляем с покупкой!')
+        })
+    </script>
+</body>
+</html>
